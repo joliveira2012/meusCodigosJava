@@ -1,1 +1,36 @@
-Unnamed repository; edit this file 'description' to name the repository.
+Aula 1 - orientção a objeto
+**Criação e instanciação de objetos;
+Aula 2 - Herança e polimorfismo
+
+OBS:
+* Variáveis e metodos statics
+
+
+Tipos:
+*public: visivel para todos
+
+*protected: visivel para o pacote
+
+*abstract: utilitária (quando usado o metodo ou classe só pode ser instanciado e não chamado 
+ diretamente) 
+ **METODOS ABSTRATICS NÃO USAM "(){}" e sim "();" no fim do metodo (não tem implementação)
+ 
+*super: Quando uso o método super() dentro de um construtor de uma classe herdada, 
+		ele usa o construtor da instância que está referenciando;
+
+static: Reservado unicamente dentro desta classe em tempo de execução 
+	    (não é instânciado pelo objeto) 
+		(não é instânciável)
+		
+construtor: sobrecarga (construtores são iguais com parametros diferentes)
+
+Herança: Atributos e metodos herdados; 
+
+Polimorfismo (qualidade ou estado de ser capaz de assumir diferentes formas): 
+			 utiliza sobrescrita (classe e pai e filho tem os mesmos metódos, 
+		 sempre é respeitado do mais novo. Nesse exemplo seria a filha)
+
+Interface: O que pode se acoplar a uma classe e desacoplar, pode existir em mais de um lugar.
+		   É (herança ou propriedade), tem (interface) - 
+		   Exemplo: o carro é branco, o carro tem toda
+		   

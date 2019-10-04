@@ -5,8 +5,8 @@ public class ContaCorrente extends ContaBancaria{
 		super();
 	} 
 	
-	void getTipo (){
-		System.out.println("Conta Corrente");
+	public String getTipo (){
+		return "Conta Corrente";
 	}
 	
 	public double saque(double sacado){

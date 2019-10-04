@@ -1,5 +1,5 @@
 package banco;
-public class ContaBancaria {
+public abstract class ContaBancaria {
 	String Titular;
 	double saldo;
 	int numero;
@@ -22,8 +22,6 @@ public class ContaBancaria {
 		return this.saldo -= sacado;		
 	}
 	
-	void getTipo (){
-		System.out.println("Conta");
-	}
+	public abstract String getTipo();
 
 }

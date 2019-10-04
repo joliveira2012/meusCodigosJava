@@ -5,8 +5,8 @@ public class ContaPoupanca extends ContaBancaria{
 		super();
 	} 
 	
-	void getTipo (){
-		System.out.println("Conta poupança");
+	public String getTipo (){
+		return "Conta Poupança";
 	}
 	
 }
