@@ -7,7 +7,7 @@ public class Pessoa {
 	//Atributo "static" 
 	//Reservado unicamente dentro desta classe em tempo de execução (não é instânciado pelo objeto) 
 	//(não é instânciável)
-	private static int contador;
+	protected static int contador;
 	
 	//Construtor
 	public Pessoa(String nome, int idade) {

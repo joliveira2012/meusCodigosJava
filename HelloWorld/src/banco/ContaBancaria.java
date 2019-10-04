@@ -1,12 +1,13 @@
+package banco;
 public class ContaBancaria {
-	private String titular;		
-	private double saldo;
-	private int numero;	
+	String Titular;
+	double saldo;
+	int numero;
+	
+	private String titular;				
 	
 	public ContaBancaria() {
-		this.titular = "Teste";	
-		this.saldo = 5000;		
-		this.numero = 1234;
+		this.titular = "Teste";		
 	} 
 	
 	public double getSaldo(){
@@ -19,6 +20,10 @@ public class ContaBancaria {
 	
 	public double saque(double sacado){
 		return this.saldo -= sacado;		
+	}
+	
+	void getTipo (){
+		System.out.println("Conta");
 	}
 
 }

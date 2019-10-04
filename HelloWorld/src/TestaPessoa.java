@@ -28,6 +28,7 @@ public class TestaPessoa {
 		
 		System.out.println(ps1.getContador());
 		System.out.println(ps1.getNome());
+		System.out.println(ps1.contador);
 		
 	}
 }
