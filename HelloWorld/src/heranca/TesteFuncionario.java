@@ -41,6 +41,11 @@ public class TesteFuncionario {
 		cb.registra(f);
 		cb.registra(arrayfunc[2]);
 		
+		/*
+		//Exemplo interface
+		Diretor d = new Diretor();
+		Autenticavel a  = d;*/
+
 		System.out.println(cb.getTotalBonificacao());
 		
 		

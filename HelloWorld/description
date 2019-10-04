@@ -34,3 +34,7 @@ Interface: O que pode se acoplar a uma classe e desacoplar, pode existir em mais
 		   É (herança ou propriedade), tem (interface) - 
 		   Exemplo: o carro é branco, o carro tem toda
 		   
+		   DEFAULT: Não obriga que as classes que implementou a interface utilize o novo metodo
+		   			Exemplo na interface Autenticavel
+		   
+		   
