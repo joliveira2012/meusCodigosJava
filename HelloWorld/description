@@ -13,7 +13,7 @@ Tipos:
 
 *abstract: utilitária (quando usado o metodo ou classe só pode ser instanciado e não chamado 
  diretamente) 
- **METODOS ABSTRATICS NÃO USAM "(){}" e sim "();" no fim do metodo (não tem implementação)
+ **METODOS ABSTRATICS NÃO USAM "(){}" e sim "();" no fim do metodo (não tem implementação) **a classe que herda que implementa
  
 *super: Quando uso o método super() dentro de um construtor de uma classe herdada, 
 		ele usa o construtor da instância que está referenciando;
@@ -36,5 +36,13 @@ Interface: O que pode se acoplar a uma classe e desacoplar, pode existir em mais
 		   
 		   DEFAULT: Não obriga que as classes que implementou a interface utilize o novo metodo
 		   			Exemplo na interface Autenticavel
-		   
+					
+					
+Erros e exceçoes
+- unchecked = compila, mas estoura erro (só estoura quando execulta determinado metodo)
+- checked = nem compila (obriga tratar)
+
+-Exception vem da throwable
+
+
 		   
