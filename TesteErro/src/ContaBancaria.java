@@ -14,13 +14,13 @@ public abstract class ContaBancaria {
 		return this.saldo;
 	}
 	
-	public double depositar(double deposito){
+	/*public double depositar(double deposito){
 		return this.saldo += deposito;		
 	}
 	
 	public double saque(double sacado){
 		return this.saldo -= sacado;		
-	}
+	}*/
 	
 	public abstract String getTipo();
 

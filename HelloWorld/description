@@ -41,8 +41,11 @@ Interface: O que pode se acoplar a uma classe e desacoplar, pode existir em mais
 Erros e exceçoes
 - unchecked = compila, mas estoura erro (só estoura quando execulta determinado metodo)
 - checked = nem compila (obriga tratar)
+**Se eu cria uma classe herdando Exception ele nem execulta se ouver erro, mas se eu herdar RuntimeException ele executa de depois da erro (ex: class SaldoInsuficiente)
 
 -Exception vem da throwable
+
+
 
 
 		   
